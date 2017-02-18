@@ -1,0 +1,22 @@
+{
+    "name": "VisionWap/Workflow",
+    "description": "Workflow Library for PHP",
+    "license": "GNU 3",
+    "keywords": ["Workflow"],
+    "authors": [
+        {
+            "name": "Luis David Salazar",
+            "email": "david@visionwap.com",
+            "homepage": "http://visionwap.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VisionWap\\Workflow\\": "src"
+        }
+    }
+}
